@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="application-name" content="Calculator">
+        <meta name="description" content="It is a Real calculator">
+        <meta name="author" content="mostafa zaghloul">
+        <title>Advanced Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="Header">
+             Advanced Calculator 
+        </div>
+        
+        <div id="buttons">
+            <form>
+                <input type="text" id="textarea" value="0"/>
+                <br/>
+                <div id="number">
+                    <input type="button" id="One" value="1"/>
+                    <input type="button" id="Two" value="2"/>
+                    <input type="button" id="Three" value="3"/>
+                    <br>
+                    <input type="button" id="four" value="4"/>
+                    <input type="button" id="five" value="5"/>
+                    <input type="button" id="six" value="6"/>
+                    <br>
+                    <input type="button" id="siven" value="7"/>
+                    <input type="button" id="eight" value="8"/>
+                    <input type="button" id="nine" value="9"/>
+                    <br>
+                    <input type="button" id="zero" value="0"/>
+                </div>
+                <br>
+                <div id="operation">
+                <input type="button" id="pluse" value="+"/>
+                <input type="button" id="sub" value="-"/>
+                <input type="button" id="multi" value="*"/>
+                <input type="button" id="div" value="/"/>
+                
+                    </div>                
+                <br>
+                <input type="button" id="equal" value="="/>
+                <br>
+                <input type="reset" id="restbutton" onclick="restme()"/>
+            </form>
+            <label id="label">The result is = <span> 00</span></label>
+           
+        </div>
+   
+            <script src="js1.js"></script>
+
+    </body>
+    
+</html>
